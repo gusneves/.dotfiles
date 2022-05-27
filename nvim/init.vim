@@ -26,7 +26,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-"Plug 'rust-lang/rust.vim'
+Plug 'ellisonleao/glow.nvim'
+Plug 'rust-lang/rust.vim'
 
 "End plugin session
 call plug#end()
@@ -38,5 +39,7 @@ filetype plugin indent on
 map <F2> :NERDTree <CR>
 
 "RustFmt
-"let g:rustfmt_autosave = 1
+let g:rustfmt_autosave = 1
 
+"Glow - Markdown Preview
+let g:glow_style = "dark"

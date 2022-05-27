@@ -100,10 +100,11 @@ source $ZSH/oh-my-zsh.sh
 #
 # aliases
 alias zshconfig="nvim ~/.zshrc"
+alias tconf="nvim ~/.config/alacritty/alacritty.yml"
 alias vconf="nvim ~/.config/nvim/init.vim"
 alias up="sudo dnf update"
 alias v="nvim"
 alias vim="nvim"
 alias dev="~/Documentos/dev"
 alias aulas="glow ~/aulas.md"
-
+alias grad="~/Documentos/grad"
