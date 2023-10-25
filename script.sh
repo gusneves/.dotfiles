@@ -9,7 +9,9 @@ echo "Done."
 # create symlinks
 echo "Creating symlinks..."
 ln -s -f ~/.dotfiles/.zshrc ~/.zshrc
+mkdir ~/.config/alacritty
 ln -s -f ~/.dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+mkdir ~/.config/nvim
 ln -s -f ~/.dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 echo "Done."
 
@@ -17,5 +19,6 @@ echo "Done."
 echo "Installing fonts..."
 cp ~/.dotfiles/fonts/JetBrainsMono[wght].ttf ~/.local/share/fonts
 cp ~/.dotfiles/fonts/JetBrainsMono-Italic[wght].ttf ~/.local/share/fonts
+cp ~/.dotfiles/fonts/IntelMono-Regular.otf ~/.local/share/fonts
 fc-cache -f
 echo "Done."
